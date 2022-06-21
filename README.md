@@ -9,7 +9,7 @@ Docker containers.
 
 ## Installation
 
-1. Install the [httpd Docker image](https://hub.docker.com\_/httpd)
+1. Install the [httpd Docker image](https://hub.docker.com/\_/httpd)
 2. Build and run as instructed on the image website.
 
 ```sh
@@ -25,4 +25,4 @@ docker run -dit --net host --name my-running-app -p 8080:80 my-apache2
     automatically
   - [ ] make it configurable and editable without the need to rebuild
   - [x] make the webserver accessible from the local network (see
-    doc/notes.md)
+    [notes](doc/notes.md))
